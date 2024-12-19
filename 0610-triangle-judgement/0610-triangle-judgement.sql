@@ -4,7 +4,7 @@ SELECT
     y,
     z,
     CASE 
-        WHEN x+y > z AND x+z > Y and z+y > x THEN 'Yes'
+        WHEN x+y > z AND x+z > y and z+y > x THEN 'Yes'
         ELSE 'No'
         END AS triangle
 FROM Triangle
